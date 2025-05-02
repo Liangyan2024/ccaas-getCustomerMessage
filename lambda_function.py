@@ -1,6 +1,7 @@
-def lambda_handler(event, context):
-    return {
-        'statusCode': 200,
-        'body': 'Customer message retrieved.' 
+import json
+import boto3
 
-    }
+def lambda_handler(event, context):
+    print("Received event:", event)
+
+    return
